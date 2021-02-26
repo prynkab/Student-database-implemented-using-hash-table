@@ -1,13 +1,13 @@
 # Student Database implemented using hash table
 
 This project creates a student database implemented as a Hash Table.
-Objectives:
+-Objectives:
 - Implement a data structure to meet given specifications
 - Design, implement, and use a closed hash table data structure
 - Use a hash table as an index to a data store
-Aim: To implement a closed hash table data structure, and to use hash as the index for rapid searching, inserting and deleting of a database of student records.
+-Aim: To implement a closed hash table data structure, and to use hash as the index for rapid searching, inserting and deleting of a database of student records.
 
-Procedure:
+-Procedure:
 - A structure is created storing the roll number of type int, an array of name of type char and the telephone number of type long long int to store the records of the students
 - The hash table is implemented as an array of TableSize objects of the above sturcture. The value of TableSize should initially be #define as 10.
 - The hash table accepts integer value, string and long long integer value.
